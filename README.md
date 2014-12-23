@@ -1,3 +1,43 @@
+Q2A Math Editor (LaTeX)
+=======================
+
+## Intro
+
+This is a totally new mathjax editor for q2a. It's not markdown, it's based on ckeditor 4. So it's also a ckeditor 4 plugin for q2a. 
+
+I made this plugin long time ago (right after the ckeditor 4 release) but I never published it.
+It's time to do it ;)
+
+
+## Feedback
+
+Please report any issue, this is a beta testing release and I think there's some small fixes to do.
+
+
+## How to use 
+
+### Install plugin 
+You will find enclosed the plugin, you just have to decompress it and put it in the qa-plugins directory and enable Matheditor in the Posting admin page.
+
+
+### Enable mathjax (mandatory)
+
+Put this code into Admin, Layout, Custom HTML at top of every page:
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX","output/HTML-CSS"], tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}, TeX: { extensions: ["AMSmath.js","AMSsymbols.js"]} }); </script>
+
+Put this code into Admin, Layout, Custom HTML in HEAD section of every page:
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+
+
+## Outro 
+
+Here you will find the Ckeditor 4 readme
+
+
+
+
 CKEditor 4
 ==========
 
