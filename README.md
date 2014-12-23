@@ -24,11 +24,11 @@ You will find enclosed the plugin, you just have to decompress it and put it in 
 
 Put this code into Admin, Layout, Custom HTML at top of every page:
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX","output/HTML-CSS"], tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}, TeX: { extensions: ["AMSmath.js","AMSsymbols.js"]} }); </script>
+    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX","output/HTML-CSS"],     tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}, TeX: { extensions: ["AMSmath.js","AMSsymbols.js"]} }); </script>
 
 Put this code into Admin, Layout, Custom HTML in HEAD section of every page:
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
 
 
 ## Outro 
