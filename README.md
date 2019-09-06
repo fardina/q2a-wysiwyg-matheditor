@@ -20,6 +20,9 @@ Please report any issue in the [issue board](https://github.com/thibaultduponche
 1. Download the plugin
 2. Decompress in your **qa-plugin** directory
 3. Enable **WYSIWYG Math Editor** in the **Admin** > **Posting** page.
+
+![](screenies/matheditors)
+
 4. Enable **MathJax** on your website by putting this code into **Admin** > **Layout** > C**ustom HTML in HEAD** section of every page:
 
 ```
