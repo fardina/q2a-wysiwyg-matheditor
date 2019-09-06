@@ -3,11 +3,15 @@
 
 ## :clipboard: Description
 
-This is a totally new mathjax editor for q2a. It's not markdown, it's based on CKEditor 4. ~~So it's also a ckeditor 4 plugin for q2a~~ (use native WYSIWYG instead). 
+This is a WYSIWYG Math formulas editor for [Question2Answers](https://www.question2answer.org/). 
+ 
+Some history...
 
-I made this plugin long time ago (right after the ckeditor 4 release) but I published long time after (but already 5 years ago !)
+I made this plugin long time ago (right after the ckeditor 4 release) then I published it here looong time after (but already 5 years ago from now !). Finally today (september 2019) I'm updating to fix mathjax issue and while we are here I update it to latest CKEditor 4 version.  
 
-Since then, [Question2Answers](https://www.question2answer.org/) team integrated natively the [CKEditor 4](https://github.com/ckeditor/ckeditor-dev) as WYSIWYG.
+Since I first released this, [Question2Answers](https://www.question2answer.org/) team integrated natively the [CKEditor 4](https://github.com/ckeditor/ckeditor-dev) as WYSIWYG :thumbsup:
+
+But this plugin is still good if you want to have Math formulas.
 
 
 ## :speech_balloon: Feedback
