@@ -54,3 +54,12 @@ When you click on it the **Sigma** button you will have a popup and you can star
 When you submit you message, you get your math YEAH : 
 
 ![](screenies/yeah.png)
+
+
+## :smiley_cat: Other Math Editors
+
+Please note that [q2a-formatter](https://github.com/tangruize/q2a-formatter) seems to work remarkably well (but it not doing the same job, math formulas are printed in a *preview* zone)
+
+My other plugin [q2a-markdown-editor](https://github.com/thibaultduponchelle/q2a-markdown-editor-latex) is broken currently and was never really perfectly working (I'm not a javascript guy :crying_cat_face:)
+Potentially, CKEditor 4 seems to have plugins available for math formulas but based on [MathQuill](http://mathquill.com) or **MathML**
+
