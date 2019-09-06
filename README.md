@@ -17,23 +17,23 @@ Please report any issue, this is a beta testing release and I think there's some
 ## How to use 
 
 ### Install plugin 
+
 You will find enclosed the plugin, you just have to decompress it and put it in the qa-plugins directory and enable Matheditor in the Posting admin page.
 
 
 ### Enable mathjax (mandatory)
 
-Put this code into Admin, Layout, Custom HTML at top of every page:
-
-    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ extensions: ["tex2jax.js"], jax: ["input/TeX","output/HTML-CSS"],     tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}, TeX: { extensions: ["AMSmath.js","AMSsymbols.js"]} }); </script>
-
 Put this code into Admin, Layout, Custom HTML in HEAD section of every page:
 
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+```
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+```
 
 
 ## Outro 
 
-Here you will find the Ckeditor 4 readme
+Here you will find the Ckeditor 4 README
 
 
 
