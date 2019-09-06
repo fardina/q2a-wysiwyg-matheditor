@@ -57,17 +57,24 @@ When you submit you message, you get your math YEAH :
 
 ## :smiley_cat: Other Math Editors
 
+
+### :purple_heart: Q2A Formatter
+
 Please note that [q2a-formatter](https://github.com/tangruize/q2a-formatter) seems to work remarkably well (but it not doing the same job, math formulas are printed in a *preview* zone)
 
 ![](screenies/formatter.png)
+
+### :blue_heart: Q2APro SCEditor
 
 [SCEditor](https://github.com/q2apro/q2apro-sceditor) seems very nice and has the same approach than q2a-formatter (preview zone).
 
 ![](screenies/sceditor.png)
 
+### :broken_heart: The endless project
+
 My other plugin [q2a-markdown-editor](https://github.com/thibaultduponchelle/q2a-markdown-editor-latex) is broken currently and was never really perfectly working (I'm not a javascript guy :crying_cat_face:)
 
-
+### :star2: Other ideas 
 
 Potentially, CKEditor 4 seems to have plugins available for math formulas but based on [MathQuill](http://mathquill.com) or **MathML**
 
