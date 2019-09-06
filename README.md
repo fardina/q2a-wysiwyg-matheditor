@@ -7,7 +7,7 @@ This is a WYSIWYG Math formulas editor for [Question2Answers](https://www.questi
  
 Some history...
 
-I made this plugin long time ago (right after the ckeditor 4 release) then I published it here looong time after (but already 5 years ago from now !). Finally today (september 2019) I'm updating to fix mathjax issue and while we are here I update it to latest CKEditor 4 version.  
+I made this plugin long time ago (right after the ckeditor 4 release) then I published it here looong time after (but already 5 years ago from now !). Finally today (september 2019) I'm updating to **fix mathjax issue** and while we are here I update it to latest **CKEditor 4** version and improve documentation :smile:  
 
 Since I first released this, [Question2Answers](https://www.question2answer.org/) team integrated natively the [CKEditor 4](https://github.com/ckeditor/ckeditor-dev) as WYSIWYG :thumbsup:
 
