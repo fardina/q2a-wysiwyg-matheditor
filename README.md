@@ -1,4 +1,4 @@
-# :heavy_dollar_sign: Q2A Math Editor (LaTeX)
+# :black_nib: Q2A Math Editor (LaTeX)
 
 
 ## :clipboard: Description
@@ -21,7 +21,7 @@ Please report any issue in the [issue board](https://github.com/thibaultduponche
 2. Decompress in your **qa-plugin** directory
 3. Enable **WYSIWYG Math Editor** in the **Admin** > **Posting** page.
 
-![](screenies/matheditors)
+![](screenies/matheditors.png)
 
 4. Enable **MathJax** on your website by putting this code into **Admin** > **Layout** > C**ustom HTML in HEAD** section of every page:
 
@@ -38,6 +38,17 @@ And you're done !
 
 ## :rainbow: Demo
 
+When you go to post a question you will have this new WYSIWYG editor with an **Sigma** in the toolbar (+ various other plugins selected by me) : 
+
+![](screenies/editor.png)
+
+When you click on it the **Sigma** button you will have a popup and you can start editing **Math Formulas** with a visual feedback : 
+
+![](screenies/editmath.png)
+
+When you submit you message, you get your math YEAH : 
+
+![](screenies/yeah.png)
 
 
 ## :airplane: Outro 
