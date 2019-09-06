@@ -49,7 +49,7 @@ class qa_matheditor {
 	}
 	
 	function focus_script($fieldname) {
-		return "qa_matheditor".$fieldname.".focus();";
+		return "qa_matheditor_".$fieldname.".focus();";
 	}
 	
 	function update_script($fieldname) {
