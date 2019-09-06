@@ -67,7 +67,7 @@ Potentially, CKEditor 4 seems to have plugins available for math formulas but ba
 
 If you find a bug or want to improve this plugin, please go ahead and create a **pull request** towards this repo, I will happily review and merge it. 
 
-As I said, I'm not a javascript guy neither a PHP guy so I'm doing my best but honestly that's far from sufficient :smile:
+As I said, I'm not a javascript guy neither a PHP guy so I'm doing my best but honestly that's far from being sufficient :smile:
 
 ![](https://choualbox.com/Img/138183061693.jpg)
 
