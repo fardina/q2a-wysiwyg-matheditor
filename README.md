@@ -28,7 +28,7 @@ Please report any issue in the [issue board](https://github.com/thibaultduponche
 
 ![](screenies/matheditors.png)
 
-4. Enable **MathJax** on your website by putting this code into **Admin** > **Layout** > C**ustom HTML in HEAD** section of every page:
+4. Enable **MathJax** on your website by putting this code into **Admin** > **Layout** > **Custom HTML in HEAD** section of every page:
 
 ```
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
