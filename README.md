@@ -15,21 +15,27 @@ Since then, [Question2Answers](https://www.question2answer.org/) team integrated
 Please report any issue in the [issue board](https://github.com/thibaultduponchelle/q2a-ckeditor-latex/issues), this is a beta testing release and I think there's some small fixes to do.
 
 
-## :carousel_horse: How to use 
+## :carousel_horse: Install 
 
-### :hammer: Install plugin 
-
-You will find enclosed the plugin, you just have to decompress it and put it in the **qa-plugins** directory and enable **WYSIWYG Math Editor** in the **Admin** > **Posting** page.
-
-
-### :rocket: Enable mathjax (mandatory)
-
-Put this code into **Admin** > **Layout** > C**ustom HTML in HEAD** section of every page:
+1. Download the plugin
+2. Decompress in your **qa-plugin** directory
+3. Enable **WYSIWYG Math Editor** in the **Admin** > **Posting** page.
+4. Enable **MathJax** on your website by putting this code into **Admin** > **Layout** > C**ustom HTML in HEAD** section of every page:
 
 ```
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 ```
+
+Like this : 
+
+![](screenies/customhtml.png)
+
+And you're done !
+
+## :rainbow: Demo
+
+
 
 ## :airplane: Outro 
 
