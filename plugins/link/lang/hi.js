@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'link', 'hi', {
 	acccessKey: 'ऍक्सॅस की',
@@ -19,6 +19,8 @@ CKEDITOR.plugins.setLang( 'link', 'hi', {
 	anchorName: 'ऐंकर नाम से',
 	charset: 'लिंक रिसोर्स करॅक्टर सॅट',
 	cssClasses: 'स्टाइल-शीट क्लास',
+	download: 'Force Download', // MISSING
+	displayText: 'Display Text', // MISSING
 	emailAddress: 'ई-मेल पता',
 	emailBody: 'संदेश',
 	emailSubject: 'संदेश विषय',
@@ -33,19 +35,21 @@ CKEDITOR.plugins.setLang( 'link', 'hi', {
 	noAnchors: '(डॉक्यूमॅन्ट में ऐंकर्स की संख्या)',
 	noEmail: 'ई-मेल पता टाइप करें',
 	noUrl: 'लिंक URL टाइप करें',
+	noTel: 'Please type the phone number', // MISSING
 	other: '<अन्य>',
+	phoneNumber: 'Phone number', // MISSING
 	popupDependent: 'डिपेन्डॅन्ट (Netscape)',
 	popupFeatures: 'पॉप-अप विन्डो फ़ीचर्स',
 	popupFullScreen: 'फ़ुल स्क्रीन (IE)',
 	popupLeft: 'बायीं तरफ',
 	popupLocationBar: 'लोकेशन बार',
 	popupMenuBar: 'मॅन्यू बार',
-	popupResizable: 'Resizable', // MISSING
+	popupResizable: 'आकार बदलने लायक',
 	popupScrollBars: 'स्क्रॉल बार',
 	popupStatusBar: 'स्टेटस बार',
 	popupToolbar: 'टूल बार',
 	popupTop: 'दायीं तरफ',
-	rel: 'Relationship', // MISSING
+	rel: 'संबंध',
 	selectAnchor: 'ऐंकर चुनें',
 	styles: 'स्टाइल',
 	tabIndex: 'टैब इन्डॅक्स',
@@ -58,8 +62,9 @@ CKEDITOR.plugins.setLang( 'link', 'hi', {
 	toAnchor: 'इस पेज का ऐंकर',
 	toEmail: 'ई-मेल',
 	toUrl: 'URL',
+	toPhone: 'Phone', // MISSING
 	toolbar: 'लिंक इन्सर्ट/संपादन',
 	type: 'लिंक प्रकार',
 	unlink: 'लिंक हटायें',
 	upload: 'अपलोड'
-});
+} );

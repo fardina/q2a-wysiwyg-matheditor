@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'format', 'ru', {
 	label: 'Форматирование',
@@ -15,4 +15,4 @@ CKEDITOR.plugins.setLang( 'format', 'ru', {
 	tag_h6: 'Заголовок 6',
 	tag_p: 'Обычное',
 	tag_pre: 'Моноширинное'
-});
+} );

@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'zh-cn', {
-	alertUrl: '请输入图像地址',
 	alt: '替换文本',
 	border: '边框大小',
 	btnUpload: '上传到服务器',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'zh-cn', {
 	validateBorder: '边框大小必须为整数格式',
 	validateHSpace: '水平间距必须为整数格式',
 	validateVSpace: '垂直间距必须为整数格式'
-});
+} );

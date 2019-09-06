@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'cs', {
-	alertUrl: 'Zadejte prosím URL obrázku',
 	alt: 'Alternativní text',
 	border: 'Okraje',
 	btnUpload: 'Odeslat na server',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'cs', {
 	validateBorder: 'Okraj musí být nastaven v celých číslech.',
 	validateHSpace: 'Horizontální mezera musí být nastavena v celých číslech.',
 	validateVSpace: 'Vertikální mezera musí být nastavena v celých číslech.'
-});
+} );

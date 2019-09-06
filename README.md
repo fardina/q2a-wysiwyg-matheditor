@@ -1,47 +1,7 @@
-# Q2A Math Editor (LaTeX)
-
-
-## Intro
-
-This is a totally new mathjax editor for q2a. It's not markdown, it's based on CKEditor 4. ~~So it's also a ckeditor 4 plugin for q2a~~ (use native WYSIWYG instead). 
-
-I made this plugin long time ago (right after the ckeditor 4 release) but I published long time after (but already 5 years ago !)
-
-Since then, [Question2Answers](https://www.question2answer.org/) team integrated natively the [CKEditor 4](https://github.com/ckeditor/ckeditor-dev) as WYSIWYG.
-
-
-## Feedback
-
-Please report any issue, this is a beta testing release and I think there's some small fixes to do.
-
-
-## How to use 
-
-### Install plugin 
-
-You will find enclosed the plugin, you just have to decompress it and put it in the **qa-plugins** directory and enable **WYSIWYG Math Editor** in the **Admin** > **Posting** page.
-
-
-### Enable mathjax (mandatory)
-
-Put this code into **Admin** > **Layout** > C**ustom HTML in HEAD** section of every page:
-
-```
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-```
-
-## Outro 
-
-Here you will find the Ckeditor 4 README
-
-
-
-
 CKEditor 4
 ==========
 
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.  
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
 http://ckeditor.com - See LICENSE.md for license information.
 
 CKEditor is a text editor to be used inside web pages. It's not a replacement

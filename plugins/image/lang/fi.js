@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'fi', {
-	alertUrl: 'Kirjoita kuvan osoite (URL)',
 	alt: 'Vaihtoehtoinen teksti',
 	border: 'Kehys',
 	btnUpload: 'Lähetä palvelimelle',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'fi', {
 	validateBorder: 'Kehyksen täytyy olla kokonaisluku.',
 	validateHSpace: 'HSpace-määrityksen täytyy olla kokonaisluku.',
 	validateVSpace: 'VSpace-määrityksen täytyy olla kokonaisluku.'
-});
+} );

@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'stylescombo', 'es', {
 	label: 'Estilo',
@@ -8,4 +8,4 @@ CKEDITOR.plugins.setLang( 'stylescombo', 'es', {
 	panelTitle1: 'Estilos de párrafo',
 	panelTitle2: 'Estilos de carácter',
 	panelTitle3: 'Estilos de objeto'
-});
+} );

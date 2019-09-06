@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'zh', {
-	alertUrl: '請輸入圖片 URL',
 	alt: '替代文字',
 	border: '框線',
 	btnUpload: '傳送到伺服器',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'zh', {
 	validateBorder: '框線必須是整數。',
 	validateHSpace: 'HSpace 必須是整數。',
 	validateVSpace: 'VSpace 必須是整數。'
-});
+} );

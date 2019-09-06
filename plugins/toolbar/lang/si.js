@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'toolbar', 'si', {
 	toolbarCollapse: 'මෙවලම් තීරුව හැකුලුම.',
@@ -19,4 +19,4 @@ CKEDITOR.plugins.setLang( 'toolbar', 'si', {
 		tools: 'මෙවලම්'
 	},
 	toolbars: 'සංස්කරණ මෙවලම් තීරුව'
-});
+} );

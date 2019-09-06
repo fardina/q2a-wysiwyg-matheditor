@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'format', 'zh-cn', {
 	label: '格式',
@@ -15,4 +15,4 @@ CKEDITOR.plugins.setLang( 'format', 'zh-cn', {
 	tag_h6: '标题 6',
 	tag_p: '普通',
 	tag_pre: '已编排格式'
-});
+} );

@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'pl', {
-	alertUrl: 'Podaj adres obrazka.',
 	alt: 'Tekst zastępczy',
 	border: 'Obramowanie',
 	btnUpload: 'Wyślij',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'pl', {
 	validateBorder: 'Wartość obramowania musi być liczbą całkowitą.',
 	validateHSpace: 'Wartość odstępu poziomego musi być liczbą całkowitą.',
 	validateVSpace: 'Wartość odstępu pionowego musi być liczbą całkowitą.'
-});
+} );

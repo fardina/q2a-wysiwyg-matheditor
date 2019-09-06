@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'ms', {
-	alertUrl: 'Sila taip URL untuk fail gambar',
 	alt: 'Text Alternatif',
 	border: 'Border',
 	btnUpload: 'Hantar ke Server',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'ms', {
 	validateBorder: 'Border must be a whole number.', // MISSING
 	validateHSpace: 'HSpace must be a whole number.', // MISSING
 	validateVSpace: 'VSpace must be a whole number.' // MISSING
-});
+} );

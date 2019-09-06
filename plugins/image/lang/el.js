@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'el', {
-	alertUrl: 'Εισάγετε την τοποθεσία (URL) της εικόνας',
 	alt: 'Εναλλακτικό Κείμενο',
 	border: 'Περίγραμμα',
 	btnUpload: 'Αποστολή στον Διακομιστή',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'el', {
 	validateBorder: 'Το περίγραμμα πρέπει να είναι ένας ακέραιος αριθμός.',
 	validateHSpace: 'Το HSpace πρέπει να είναι ένας ακέραιος αριθμός.',
 	validateVSpace: 'Το VSpace πρέπει να είναι ένας ακέραιος αριθμός.'
-});
+} );

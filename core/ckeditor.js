@@ -1,6 +1,6 @@
-﻿/**
- * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md or http://ckeditor.com/license
+/**
+ * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
 /**
@@ -47,16 +47,21 @@ CKEDITOR.add = function( editor ) {
 			CKEDITOR.currentInstance = editor;
 			CKEDITOR.fire( 'currentInstance' );
 		}
-	});
+	} );
 
-	editor.on( 'blur', function() {
+	editor.on( 'blur', removeInstance );
+
+	// Remove currentInstance if it's destroyed (#589).
+	editor.on( 'destroy', removeInstance );
+
+	CKEDITOR.fire( 'instance', null, editor );
+
+	function removeInstance() {
 		if ( CKEDITOR.currentInstance == editor ) {
 			CKEDITOR.currentInstance = null;
 			CKEDITOR.fire( 'currentInstance' );
 		}
-	});
-
-	CKEDITOR.fire( 'instance', null, editor );
+	}
 };
 
 /**
@@ -70,7 +75,7 @@ CKEDITOR.remove = function( editor ) {
 	delete CKEDITOR.instances[ editor.name ];
 };
 
-(function() {
+( function() {
 	var tpls = {};
 
 	/**
@@ -102,9 +107,9 @@ CKEDITOR.remove = function( editor ) {
 	CKEDITOR.getTemplate = function( name ) {
 		return tpls[ name ];
 	};
-})();
+} )();
 
-(function() {
+( function() {
 	var styles = [];
 
 	/**
@@ -126,21 +131,21 @@ CKEDITOR.remove = function( editor ) {
 	};
 
 	/**
-	 * Returns a string will all CSS rules passed to the {@link CKEDITOR#addCss} method.
+	 * Returns a string with all CSS rules passed to the {@link CKEDITOR#addCss} method.
 	 *
 	 * @returns {String} A string containing CSS rules.
 	 */
 	CKEDITOR.getCss = function() {
 		return styles.join( '\n' );
 	};
-})();
+} )();
 
 // Perform global clean up to free as much memory as possible
 // when there are no instances left
 CKEDITOR.on( 'instanceDestroyed', function() {
 	if ( CKEDITOR.tools.isEmpty( this.instances ) )
 		CKEDITOR.fire( 'reset' );
-});
+} );
 
 // Load the bootstrap script.
 CKEDITOR.loader.load( '_bootstrap' ); // %REMOVE_LINE%

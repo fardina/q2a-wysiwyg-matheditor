@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'ar', {
-	alertUrl: 'فضلاً أكتب الموقع الذي توجد عليه هذه الصورة.',
 	alt: 'عنوان الصورة',
 	border: 'سمك الحدود',
 	btnUpload: 'أرسلها للخادم',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'ar', {
 	validateBorder: 'الإطار يجب أن يكون عددا',
 	validateHSpace: 'HSpace يجب أن يكون عدداً.',
 	validateVSpace: 'VSpace يجب أن يكون عدداً.'
-});
+} );

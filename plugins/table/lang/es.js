@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'table', 'es', {
 	border: 'Tamaño de Borde',
@@ -50,6 +50,7 @@ CKEDITOR.plugins.setLang( 'table', 'es', {
 	headersColumn: 'Primera columna',
 	headersNone: 'Ninguno',
 	headersRow: 'Primera fila',
+	heightUnit: 'height unit', // MISSING
 	invalidBorder: 'El tamaño del borde debe ser un número.',
 	invalidCellPadding: 'El espaciado interior debe ser un número.',
 	invalidCellSpacing: 'El espaciado entre celdas debe ser un número.',
@@ -71,4 +72,4 @@ CKEDITOR.plugins.setLang( 'table', 'es', {
 	widthPc: 'porcentaje',
 	widthPx: 'pixeles',
 	widthUnit: 'unidad de la anchura'
-});
+} );

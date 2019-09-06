@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'hi', {
-	alertUrl: 'तस्वीर का URL टाइप करें ',
 	alt: 'वैकल्पिक टेक्स्ट',
 	border: 'बॉर्डर',
 	btnUpload: 'इसे सर्वर को भेजें',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'hi', {
 	validateBorder: 'Border must be a whole number.', // MISSING
 	validateHSpace: 'HSpace must be a whole number.', // MISSING
 	validateVSpace: 'VSpace must be a whole number.' // MISSING
-});
+} );

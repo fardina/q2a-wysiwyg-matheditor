@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'et', {
-	alertUrl: 'Palun kirjuta pildi URL',
 	alt: 'Alternatiivne tekst',
 	border: 'Joon',
 	btnUpload: 'Saada serverisse',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'et', {
 	validateBorder: 'Äärise laius peab olema täisarv.',
 	validateHSpace: 'Horisontaalne vaheruum peab olema täisarv.',
 	validateVSpace: 'Vertikaalne vaheruum peab olema täisarv.'
-});
+} );

@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'table', 'ro', {
 	border: 'Mărimea marginii',
@@ -50,8 +50,9 @@ CKEDITOR.plugins.setLang( 'table', 'ro', {
 	headersColumn: 'Prima coloană',
 	headersNone: 'Nimic',
 	headersRow: 'Primul rând',
+	heightUnit: 'height unit', // MISSING
 	invalidBorder: 'Dimensiunea bordurii trebuie să aibe un număr.',
-	invalidCellPadding: 'Cell padding must be a positive number.', // MISSING
+	invalidCellPadding: 'Spațierea celulei trebuie sa fie un număr pozitiv',
 	invalidCellSpacing: 'Spațierea celului trebuie să fie un număr pozitiv.',
 	invalidCols: 'Numărul coloanelor trebuie să fie mai mare decât 0.',
 	invalidHeight: 'Inaltimea celulei trebuie sa fie un numar.',
@@ -71,4 +72,4 @@ CKEDITOR.plugins.setLang( 'table', 'ro', {
 	widthPc: 'procente',
 	widthPx: 'pixeli',
 	widthUnit: 'unitate lățime'
-});
+} );

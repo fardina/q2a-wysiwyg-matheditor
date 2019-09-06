@@ -1,6 +1,6 @@
 ﻿/**
- * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md or http://ckeditor.com/license
+ * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
 CKEDITOR.plugins.setLang( 'specialchar', 'pt-br', {
@@ -122,4 +122,4 @@ CKEDITOR.plugins.setLang( 'specialchar', 'pt-br', {
 	hArr: 'Seta dupla direita e esquerda',
 	diams: 'Ouros',
 	asymp: 'Aproximadamente'
-});
+} );

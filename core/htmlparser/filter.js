@@ -1,11 +1,11 @@
-﻿/**
- * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md or http://ckeditor.com/license
+/**
+ * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
 'use strict';
 
-(function() {
+( function() {
 	/**
 	 * Filter is a configurable tool for transforming and filtering {@link CKEDITOR.htmlParser.node nodes}.
 	 * It is mainly used during data processing phase which is done not on real DOM nodes,
@@ -131,7 +131,7 @@
 					options = {};
 
 				// Add the elementNames.
-				if ( rules.elementNames)
+				if ( rules.elementNames )
 					this.elementNameRules.addMany( rules.elementNames, priority, options );
 
 				// Add the attributeNames.
@@ -176,8 +176,8 @@
 				return this.attributeNameRules.execOnName( context, name );
 			},
 
-			onText: function( context, text ) {
-				return this.textRules.exec( context, text );
+			onText: function( context, text, node ) {
+				return this.textRules.exec( context, text, node );
 			},
 
 			onComment: function( context, commentText, comment ) {
@@ -344,7 +344,7 @@
 
 					// Update currentValue and corresponding argument in args array.
 					// Updated values will be used in next for-loop step.
-					if ( ret != undefined )
+					if ( ret != null )
 						args[ 0 ] = currentValue = ret;
 
 					// ret == undefined will continue loop as nothing has happened.
@@ -390,13 +390,13 @@
 	}
 
 	function isRuleApplicable( context, rule ) {
-		// Do not apply rule if context is nonEditable and rule doesn't have applyToAll option.
-		return !context.nonEditable || rule.options.applyToAll;
+		if ( context.nonEditable && !rule.options.applyToAll )
+			return false;
+
+		if ( context.nestedEditable && rule.options.excludeNestedEditable )
+			return false;
+
+		return true;
 	}
 
-})();
-
-/**
- * @class CKEDITOR.htmlParser.filterRulesDefinition
- * @abstract
- */
+} )();

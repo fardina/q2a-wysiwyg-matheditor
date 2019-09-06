@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'stylescombo', 'hu', {
 	label: 'Stílus',
@@ -8,4 +8,4 @@ CKEDITOR.plugins.setLang( 'stylescombo', 'hu', {
 	panelTitle1: 'Blokk stílusok',
 	panelTitle2: 'Inline stílusok',
 	panelTitle3: 'Objektum stílusok'
-});
+} );

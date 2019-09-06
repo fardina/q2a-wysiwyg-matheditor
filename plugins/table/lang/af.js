@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'table', 'af', {
 	border: 'Randbreedte',
@@ -50,6 +50,7 @@ CKEDITOR.plugins.setLang( 'table', 'af', {
 	headersColumn: 'Eerste kolom',
 	headersNone: 'Geen',
 	headersRow: 'Eerste ry',
+	heightUnit: 'height unit', // MISSING
 	invalidBorder: 'Randbreedte moet \'n getal wees.',
 	invalidCellPadding: 'Sel-spasie moet \'n getal wees.',
 	invalidCellSpacing: 'Sel-afstand moet \'n getal wees.',
@@ -71,4 +72,4 @@ CKEDITOR.plugins.setLang( 'table', 'af', {
 	widthPc: 'persent',
 	widthPx: 'piksels',
 	widthUnit: 'breedte-eenheid'
-});
+} );

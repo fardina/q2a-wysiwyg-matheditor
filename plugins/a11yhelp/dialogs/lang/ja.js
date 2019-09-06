@@ -1,6 +1,6 @@
 ﻿/**
- * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md or http://ckeditor.com/license
+ * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  */
 
 CKEDITOR.plugins.setLang( 'a11yhelp', 'ja', {
@@ -17,7 +17,8 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'ja', {
 
 			{
 			name: '編集ダイアログ',
-			legend: 'ダイヤログ内では、ダイアログの次の選択肢に移動するにはTabを押します。前の選択肢に移動するには、SHIFT+Tabを押します。ダイアログを決定するには、ENTERを押します。ESCでダイアログをキャンセルできます。複数のタブがあるダイアログではタブリストを操作するにはALT+F10を押します。次のタブに移動するにはTabか右カーソル、前のタブに戻るにはSHIFT+Tabか左カーソルです。タブページを決定するにはスペースもしくは、ENTERキーを押してください。'
+			legend:
+				'Inside a dialog, press TAB to navigate to the next dialog element, press SHIFT+TAB to move to the previous dialog element, press ENTER to submit the dialog, press ESC to cancel the dialog. When a dialog has multiple tabs, the tab list can be reached either with ALT+F10 or with TAB as part of the dialog tabbing order. With tab list focused, move to the next and previous tab with RIGHT and LEFT ARROW, respectively.'  // MISSING
 		},
 
 			{
@@ -64,7 +65,7 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'ja', {
 			legend: '${link} をクリック'
 		},
 			{
-			name: 'ツールバーを縮める',
+			name: 'ツールバーをたたむ',
 			legend: '${toolbarCollapse} をクリック'
 		},
 			{
@@ -72,14 +73,73 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'ja', {
 			legend: '${accessPreviousSpace} を押すとカーソルより前にあるカーソルキーで入り込めないスペースへ移動できます。例えば、HRエレメントが2つ接している場合などです。離れた場所へは、複数回キーを押します。'
 		},
 			{
-			name: '次のカーソル移動のできないポイントへ',
+			name: '次のカーソルポイントへ移動する',
 			legend: '${accessNextSpace} を押すとカーソルより後ろにあるカーソルキーで入り込めないスペースへ移動できます。例えば、HRエレメントが2つ接している場合などです。離れた場所へは、複数回キーを押します。'
 		},
 			{
 			name: 'ユーザー補助ヘルプ',
 			legend: '${a11yHelp} をクリック'
+		},
+			{
+			name: ' Paste as plain text', // MISSING
+			legend: 'Press ${pastetext}', // MISSING
+			legendEdge: 'Press ${pastetext}, followed by ${paste}' // MISSING
 		}
 		]
 	}
-	]
-});
+	],
+	tab: 'Tab',
+	pause: 'Pause',
+	capslock: 'Caps Lock',
+	escape: 'Escape',
+	pageUp: 'Page Up',
+	pageDown: 'Page Down',
+	leftArrow: '左矢印',
+	upArrow: '上矢印',
+	rightArrow: '右矢印',
+	downArrow: '下矢印',
+	insert: 'Insert',
+	leftWindowKey: '左Windowキー',
+	rightWindowKey: '右のWindowキー',
+	selectKey: 'Select',
+	numpad0: 'Num 0',
+	numpad1: 'Num 1',
+	numpad2: 'Num 2',
+	numpad3: 'Num 3',
+	numpad4: 'Num 4',
+	numpad5: 'Num 5',
+	numpad6: 'Num 6',
+	numpad7: 'Num 7',
+	numpad8: 'Num 8',
+	numpad9: 'Num 9',
+	multiply: '掛ける',
+	add: '足す',
+	subtract: '引く',
+	decimalPoint: '小数点',
+	divide: '割る',
+	f1: 'F1',
+	f2: 'F2',
+	f3: 'F3',
+	f4: 'F4',
+	f5: 'F5',
+	f6: 'F6',
+	f7: 'F7',
+	f8: 'F8',
+	f9: 'F9',
+	f10: 'F10',
+	f11: 'F11',
+	f12: 'F12',
+	numLock: 'Num Lock',
+	scrollLock: 'Scroll Lock',
+	semiColon: 'セミコロン',
+	equalSign: 'イコール記号',
+	comma: 'カンマ',
+	dash: 'ダッシュ',
+	period: 'ピリオド',
+	forwardSlash: 'フォワードスラッシュ',
+	graveAccent: 'グレイヴアクセント',
+	openBracket: '開きカッコ',
+	backSlash: 'バックスラッシュ',
+	closeBracket: '閉じカッコ',
+	singleQuote: 'シングルクォート'
+} );

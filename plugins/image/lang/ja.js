@@ -1,9 +1,8 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'image', 'ja', {
-	alertUrl: '画像のURLを入力してください',
 	alt: '代替テキスト',
 	border: '枠線の幅',
 	btnUpload: 'サーバーに送信',
@@ -23,4 +22,4 @@ CKEDITOR.plugins.setLang( 'image', 'ja', {
 	validateBorder: '枠線の幅は数値で入力してください。',
 	validateHSpace: '水平間隔は数値で入力してください。',
 	validateVSpace: '垂直間隔は数値で入力してください。'
-});
+} );

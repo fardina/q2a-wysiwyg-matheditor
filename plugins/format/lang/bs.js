@@ -1,6 +1,6 @@
 ﻿/*
-Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 */
 CKEDITOR.plugins.setLang( 'format', 'bs', {
 	label: 'Format',
@@ -15,4 +15,4 @@ CKEDITOR.plugins.setLang( 'format', 'bs', {
 	tag_h6: 'Heading 6',
 	tag_p: 'Normal',
 	tag_pre: 'Formatted'
-});
+} );
