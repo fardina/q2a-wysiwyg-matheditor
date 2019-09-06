@@ -72,7 +72,9 @@ Please note that [q2a-formatter](https://github.com/tangruize/q2a-formatter) see
 
 ### :broken_heart: The endless project
 
-My other plugin [q2a-markdown-editor](https://github.com/thibaultduponchelle/q2a-markdown-editor-latex) is broken currently and was never really perfectly working (I'm not a javascript guy :crying_cat_face:)
+My other plugin [q2a-markdown-editor](https://github.com/thibaultduponchelle/q2a-markdown-editor-latex) is broken currently 
+
+It was never really perfectly working. My fault, I'm not a javascript guy :crying_cat_face:)
 
 ### :star2: Other ideas 
 
