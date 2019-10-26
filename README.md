@@ -12,7 +12,7 @@ I made this plugin long time ago (right after the ckeditor 4 release) then I pub
 
 Since I first released this, [Question2Answers](https://www.question2answer.org/) team integrated natively the [CKEditor 4](https://github.com/ckeditor/ckeditor-dev) as WYSIWYG :thumbsup:
 
-But this plugin is still good if you want to have Math formulas.
+But this plugin is still good if you want to have Math formulas addon.
 
 
 ## :speech_balloon: Feedback
