@@ -47,7 +47,7 @@ When you go to post a question you will have this new WYSIWYG editor with an **S
 
 ![](screenies/editor.png)
 
-When you click on it the **Sigma** button you will have a popup and you can start editing **Math Formulas** with a visual feedback : 
+When you click on the **Sigma** button you will have a popup and you can start editing **Math Formulas** with a visual feedback : 
 
 ![](screenies/editmath.png)
 
